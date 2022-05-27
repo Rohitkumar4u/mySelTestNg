@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="offlineWebsite.TestCases5AddUserPage">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="driverCloser"/>
+          <include name="CheckblankSubmit"/>
+          <include name="CheckIntegerInUsername"/>
+        </methods>
+      </class> <!-- offlineWebsite.TestCases5AddUserPage -->
+      <class name="offlineWebsite.TestCases2RegisterNewMember">
+        <methods>
+          <include name="browserSetup"/>
+          <include name="checkSplCharInput"/>
+          <include name="driverCloser"/>
+        </methods>
+      </class> <!-- offlineWebsite.TestCases2RegisterNewMember -->
+      <class name="offlineWebsite.TestCases1LoginPage">
+        <methods>
+          <include name="driverCloser"/>
+          <include name="CheckHypLinkClick"/>
+          <include name="CheckSpecialCharUName"/>
+          <include name="browserSetup"/>
+          <include name="CheckBlankPWord"/>
+          <include name="CheckBlankUName"/>
+          <include name="checkTitle"/>
+          <include name="CheckSpecialCharPWord"/>
+        </methods>
+      </class> <!-- offlineWebsite.TestCases1LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
